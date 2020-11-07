@@ -6,4 +6,9 @@ describe('Add', function () {
     const result = add(1, 1);
     assert.equal(result, 2);
   });
+
+  it('Should return 3', function () {
+    const result = add(1, 2);
+    assert.equal(result, 3);
+  });
 });
