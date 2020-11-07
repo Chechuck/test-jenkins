@@ -14,6 +14,11 @@ describe('Add', function () {
 
   it('Should return 4', function () {
     const result = add(2, 2);
-    assert.notEqual(result, 2);
+    assert.notEqual(result, 3);
+  });
+
+  it('Should return 5', function () {
+    const result = add(2, 3);
+    assert.notEqual(result, 4);
   });
 });
